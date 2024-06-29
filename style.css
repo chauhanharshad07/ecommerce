@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+span{
+    color: #2668beae;
+}
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.9));
+    z-index: 1;
+}
+.carousel-caption{
+    z-index: 2;
+    position: absolute;
+    margin: 14% auto;
+}
+.carousel-caption{
+    margin-bottom: 250px;
+}
+.carousel-caption h5{
+    font-size: 4rem;
+}
+.carousel-caption p{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.a{
+    text-decoration: none;
+    background-color: #2668beae;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+.a:hover{
+    color: black;
+    font-weight: 900;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.img-fluid{
+    border-radius: 15px;
+}
+.me{
+    font-size: 3rem;
+
+}
+.opa{
+    opacity: .8;
+    font-weight: 500;
+    font-size: 17px;
+}
+.card{
+    transition: transform 0.4s,box-shadow 0.3s ;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.card .img2 img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+    margin-top: -25%;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    border: 7px solid white;
+   
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0,0,0,.9);
+}
+.card:hover .img2 img{
+    border-color: #2668beae;
+    transition: 0.7s;
+
+}
+.social i{
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.social{
+    margin-bottom: 10px;
+}
+
+
+#Parts{
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.btn1{
+    background-color: black;
+    color: cyan;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+   
+}
+.btn1:hover{
+    color: white;
+}
+.add{
+    padding: 20px 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid white;
+    
+}
+.card-text{
+    font-weight: 500;
+}

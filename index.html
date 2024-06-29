@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- rimix icon cdn -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- link bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- link google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Website</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light text-center fixed-top"
+      >
+        <div class="container">
+          <img
+            src="autopart.png"
+            height="60px"
+            width="100px"
+            alt=""
+            srcset=""
+            style="border-radius: 10px"
+          />
+          <a class="navbar-brand ms-3" href="#">AUTO<span>PARTS</span></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#Service">Service</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#Parts">Parts</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- slider start  -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://img.freepik.com/free-photo/spare-parts-car_1170-1344.jpg?t=st=1718352555~exp=1718356155~hmac=0d8225ba82adcfcc08d177057a14b3d6d688059ef726cd0fc3fdce2e8be001a9&w=740"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5 class="animate__animated animate__backInRight">Engine</h5>
+            <p class="animate__animated animate__bounce">
+              a machine for converting any of various forms of energy into
+              mechanical force and motion
+            </p>
+            <a href="#" class="a">Read More...</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.freepik.com/free-photo/composition-different-car-accessories_23-2149030393.jpg?t=st=1718352626~exp=1718356226~hmac=764afadae8c2425288e7228590ecadaa00c91b0c7be7086545a341b8b31019f9&w=740 "
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5 class="animate__animated animate__backInRight">Oil</h5>
+            <p class="animate__animated animate__bounce">
+              engine oil lubricates your engine's moving parts to reduce the
+              damaging friction that reduces performance.
+            </p>
+            <a href="#" class="a">Read More...</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.freepik.com/free-photo/different-car-accessories-assortment_23-2149030428.jpg?t=st=1718352918~exp=1718356518~hmac=134b4995246893b65e4314f139ab135ba2a7ef1b2c186cf66e323b70b3983aeb&w=740"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5 class="animate__animated animate__backInRight">Lamp</h5>
+            <p class="animate__animated animate__bounce">
+              lamp includes a lamp housing, a stop light held in the lamp
+              housing and an adjustable lamp held in the lamp housing.
+            </p>
+            <a href="#" class="a">Read More...</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- slider end  -->
+
+    <!-- about start  -->
+    <div id="about">
+      <div class="container mt-5">
+        <div class="row">
+          <h1 class="me text-center">About</h1>
+          <hr />
+          <div class="col-md-5 col-sm-12 col-lg-5">
+            <img
+              src="https://img.freepik.com/free-photo/guy-plaid-shirt_158595-126.jpg?t=st=1718359220~exp=1718362820~hmac=ddd0bd78d25989e28662e4eaeb2dea8b3f9c6c7c82b0dc3af9d1bc355e63aacc&w=740"
+              alt=""
+              srcset=""
+              class="img-fluid mb-3"
+            />
+          </div>
+          <div class="col-md-7 col-sm-12 col-lg-7 flex">
+            <h3 class="new ">Traders Company pvt.</h3>
+            <p class="opa ">
+              The auto parts industry is part of the automotive industry that
+              focuses on manufacturing, wholesaling, or retailing parts for
+              motor vehicles. There are a wide variety of jobs available in car
+              or auto parts. Some are available in a warehouse setting, where
+              duties can include stocking shelves and fulfilling orders.An
+              automotive part retailer is a retail business that sells
+              automotive parts and related accessories to both consumers and
+              professional repair shops, through physical stores and websites.
+              Some automotive parts retailers also offer customer support and
+              services related to automotive maintenance and repair.
+            </p>
+            <a href="#" class="a ">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about end  -->
+
+    <!-- service start  -->
+    <div id="Service">
+      <div class="container">
+        <h1 class="me text-center">Service</h1>
+        <p class="opa text-center">
+          The maintenance check would include critical components such as: Oil
+          and lube change.
+        </p>
+        <hr />
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1"><img
+                src="https://img.freepik.com/free-photo/mechanic-checking-car-parts_1170-1347.jpg?t=st=1718362358~exp=1718365958~hmac=eeadfc9383ad966c31e7d8941fb6f13c5343022986d0675a680adb072310a5f6&w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2"><img src="https://img.freepik.com/free-photo/proud-young-executive-ready-start_1139-303.jpg?t=st=1718367847~exp=1718371447~hmac=12ec31b230cce81af7a39631e5241a4421b24d7f8e4867d4891273ccdc95aac4&w=740" alt="" srcset=""></div>
+              
+              <div class="card-body">
+                <h5 class="card-title">Engine</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1">  <img
+                src="https://img.freepik.com/premium-photo/hands-auto-mechanic-engine-parts-closeup-car-service_752567-4789.jpg?w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2">
+                <img src="https://img.freepik.com/free-photo/indian-businessman-with-his-white-car_496169-2889.jpg?t=st=1718368385~exp=1718371985~hmac=183bd61a03b2b4256b6cee941edceb3ad45ada515e9ec5bb8a4b302137ddc801&w=360" alt="" srcset="">
+              </div>
+            
+              <div class="card-body">
+                <h5 class="card-title">Engine</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1">  <img
+                src="https://img.freepik.com/free-photo/female-mechanic-holding-spare-parts-car_1170-1615.jpg?t=st=1718362453~exp=1718366053~hmac=69e15b3c0d59dc46345873d1c68148c0a44f11434c85c8f7ce99342b716fb3e2&w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2"><img src="https://img.freepik.com/free-photo/businessman-black-suit-makes-thumbs-up_114579-15900.jpg?t=st=1718368443~exp=1718372043~hmac=46100e566c922ba213e06747c2706f83c556ac3c818055818094c5d1e38a18a4&w=740" alt="" srcset=""></div>
+            
+              <div class="card-body">
+                <h5 class="card-title">Crown Pinion</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                  <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1"> <img
+                src="https://img.freepik.com/free-photo/male-car-mechanic-working-car-repair-shop_23-2150367553.jpg?t=st=1718366240~exp=1718369840~hmac=be4d4e50ee556a494ea9b6d7229e17dcad98841c84081a69c349989c257a2338&w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2"><img src="https://img.freepik.com/premium-photo/handsome-young-man-isolated-background-keeping-arms-crossed-frontal-position_1368-57348.jpg?w=740" alt="" srcset=""></div>
+             
+              <div class="card-body">
+                <h5 class="card-title">Engine</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1"> <img
+                src="https://img.freepik.com/premium-photo/semi-truck-maintenance-caucasian-truck-mechanic-working-fix-tractor_255667-59694.jpg?w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2"><img src="https://img.freepik.com/free-photo/business-man-curly-cute-handsome-guy-black-suit-bingo-happy-idea_140725-162634.jpg?t=st=1718368540~exp=1718372140~hmac=cee75dabc2f469ac5f5ab975261bb2e86df70fdc91e28645dfe924afd70fecad&w=740" alt="" srcset=""></div>
+              
+              <div class="card-body">
+                <h5 class="card-title">Engine</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 my-2">
+            <div class="card text-center">
+              <div class="img1"><img
+                src="https://img.freepik.com/premium-photo/experienced-mechanic-serviceman-holding-gears-parts-inside-workshop_308072-6458.jpg?w=740"
+                class="card-img-top"
+                alt="..."
+              /></div>
+              <div class="img2"><img src="https://img.freepik.com/free-photo/young-smiling-man-bearded-businessman-pointing-with-two-finger-upward_171337-9572.jpg?t=st=1718368578~exp=1718372178~hmac=9bcef59a5619dfea4154f0577ddf72e31185eaeab408b92b50d8a2a1c331d8d0&w=740" alt=""></div>
+              <div class="card-body">
+                <h5 class="card-title">Crown Pinion</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social">
+                  <i class="ri-facebook-circle-fill"></i>
+                  <i class="ri-twitter-fill"></i>   
+                  <i class="ri-youtube-fill"></i>
+                </div>
+                <a href="#" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    <!-- service end  -->
+    <h1 class="me text-center mt-5">Contact</h1>
+    <hr />
+    <div id="Contact">
+      <div class="container-fluid my-5">
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.748423387!2d72.41492502397058!3d23.02047410476304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1718365198969!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="problem text-center">
+        <h2>please fill the form</h2>
+        <p class="opa">Please fill up the form and return it to me before the end of the week.</p>
+      </div>
+      <div class="container bg-light p-5">
+        <div class="row">
+          <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row ">
+              <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                  <input type="text" id="form6Example1" class="form-control" />
+                  <label class="form-label" for="form6Example1">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div data-mdb-input-init class="form-outline">
+                  <input type="text" id="form6Example2" class="form-control" />
+                  <label class="form-label" for="form6Example2">Last name</label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Text input -->
+            <div data-mdb-input-init class="form-outline ">
+              <input type="text" id="form6Example3" class="form-control" />
+              <label class="form-label" for="form6Example3">Company name</label>
+            </div>
+          
+            <!-- Text input -->
+            <div data-mdb-input-init class="form-outline ">
+              <input type="text" id="form6Example4" class="form-control" />
+              <label class="form-label" for="form6Example4">Address</label>
+            </div>
+          
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline ">
+              <input type="email" id="form6Example5" class="form-control" />
+              <label class="form-label" for="form6Example5">Email</label>
+            </div>
+          
+            <!-- Number input -->
+            <div data-mdb-input-init class="form-outline ">
+              <input type="number" id="form6Example6" class="form-control" />
+              <label class="form-label" for="form6Example6">Phone</label>
+            </div>
+          
+            <!-- Message input -->
+            <div data-mdb-input-init class="form-outline ">
+              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+              <label class="form-label" for="form6Example7">Feedback</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center ">
+              <input
+                class="form-check-input me-2"
+                type="checkbox"
+                value=""
+                id="form6Example8"
+                checked
+              />
+              <label class="form-check-label" for="form6Example8"> Create an account? </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block ">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- service end  -->
+
+    <!-- parts start  -->
+    <div id="Parts">
+      <h1 class="add text-center text-white">Parts</h1>
+      <div class="container-fluid my-5 ">
+        <div class="row pt-2">
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/automotive-engine-gearbox-assembly-is-isolated-white-background-3d-render_268321-182.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Pack Engine</h5>
+                <p class="card-text">Price : 100 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/free-photo/heating-radiator-valve_93675-130971.jpg?t=st=1718452551~exp=1718456151~hmac=c723f501b15fa9aeb094e9aacc1aee9410df9280faffb623acb52b2f9ae5f976&w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">rod</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/ball-bearing-stainless-with-grease-lithium-machinery-lubrication-automotive-industrial-isolated-white-background_982173-3402.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Bearing</h5>
+                <p class="card-text">Price : 23 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/drop-oil-shine-yellow-cosmetic-oil-cosmetic-essence-liquid-drop-fresh-engine-oil-liquid-eco-nature-3d-render_91497-9828.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Oil</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          
+         
+         
+        </div>
+      </div>
+      <div class="container-fluid my-5 ">
+        <div class="row pt-2">
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/drop-oil-shine-yellow-cosmetic-oil-cosmetic-essence-liquid-drop-fresh-engine-oil-liquid-eco-nature-3d-render_91497-9828.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Oil</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/free-photo/different-car-accessories-arrangement_23-2149030413.jpg?t=st=1718452309~exp=1718455909~hmac=b45baef57aacf85429cf4f0b7e5857e814b7de4bbab7cc5be99bc72c4d0b5a78&w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Break rod</h5>
+                <p class="card-text">Price : 13 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/red-truck-light-bulb_248415-21534.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Lemp</h5>
+                <p class="card-text">Price : 3 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/free-photo/car-accessories-with-copy-space_23-2149030409.jpg?t=st=1718452367~exp=1718455967~hmac=776059f3baef6172115e00b3c2d360f1536b01e4ce1ae65dbfa048f8dcb8c85d&w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Oil & filter</h5>
+                <p class="card-text">Price : 9 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          
+         
+         
+        </div>
+      </div>
+      <div class="container-fluid my-5 ">
+        <div class="row pt-2">
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/close-up-camera-against-white-background_1048944-5771509.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Bearing</h5>
+                <p class="card-text">Price : 13 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/high-angle-view-eyeglasses-table_1048944-30941857.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">All Bearing</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/3d-illustration-auto-parts-car-shock-absorber-oil-canister-fuel-air-filters-blue-isolated-background-car-repair-parts_116124-10754.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Coolant</h5>
+                <p class="card-text">Price : 3 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/parts-car-engine-with-lubricant-oil-repairing_273081-400.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Engine oil</h5>
+                <p class="card-text">Price : 5 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          
+         
+         
+        </div>
+      </div>
+      <div class="container-fluid my-5 ">
+        <div class="row pt-2">
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;" src="https://img.freepik.com/premium-photo/group-ball-bearings-white-background_632261-2815.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Grease</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img   style="height: 220px;"src="https://img.freepik.com/free-photo/scooter-light-detail-motorcycle-antique_1203-6153.jpg?t=st=1718453471~exp=1718457071~hmac=2fc7cf5a69de3c8908942200acb2e42884de900a5142c4124ef81205b4f921be&w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Haed Lamp</h5>
+                <p class="card-text">Price : 2 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;"src="https://as1.ftcdn.net/v2/jpg/04/71/16/62/1000_F_471166237_ZmCa96frPFzcb6J6fItZHgtouuddWEVa.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Revers Light</h5>
+                <p class="card-text">Price : 10 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 my-2"> 
+            <div class="card mx-auto" style="width: 18rem;">
+              <img style="height: 220px;"src="https://img.freepik.com/free-photo/young-worker-checks-wheel-truck-malfunction-service-work_1157-46513.jpg?t=st=1718453317~exp=1718456917~hmac=6a8ff4199079a358d599388517505ae9ff528e93363125c77c01467b9214121b&w=740" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Truck Wheel</h5>
+                <p class="card-text">Price : 100 $</p>
+                <a href="#" class="btn1">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          
+         
+         
+        </div>
+      </div>
+     
+    </div>
+
+     <!-- parts end  -->
+
+
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Images -->
+        <section class="">
+          <div class="row">
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12  mb-md-0">
+              <div data-mdb-ripple-init
+                class="bg-image hover-overlay shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Images -->
+      </div>
+      <!-- Grid container -->
+    
+    
+    </footer>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white">
+ 
+   
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto ">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold ">
+            <i class="fas fa-gem "></i>Retailer Traders
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold ">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Gulf</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">LayParts</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Minda</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Spicer</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold ">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold  ms-3">Contact</h6>
+          <p><i class="fas fa-home me-3"></i>Ahemdabad , 499652 , GUJARAT</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+
+</footer>
+<!-- Footer -->
+    <!-- bootstrap js link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
